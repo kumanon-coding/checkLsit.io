@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>記録ページ</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>記録ページ</h1>
+    <form id="recordForm">
+      <label for="pageNumber">ページ番号:</label>
+      <input type="text" id="pageNumber" required>
+      <label for="pageName">ページ名:</label>
+      <input type="text" id="pageName" required>
+      <button type="submit">記録</button>
+    </form>
+    <div class="records">
+      <h2>記録一覧</h2>
+      <ul id="recordList"></ul>
+    </div>
+  </div>
+  <script src="./js/script.js"></script>
+</body>
+</html>
